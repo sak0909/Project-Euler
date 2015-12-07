@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="dc680377-2f76-461d-a964-7e9f182ab16f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Project-Euler.iml" afterPath="$PROJECT_DIR$/.idea/Project-Euler.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="dc680377-2f76-461d-a964-7e9f182ab16f" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="Project-Euler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +29,58 @@
     <favorites_list name="Project-Euler" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Problem028.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem028.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <leaf>
+      <file leaf-file-name="Problem116.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem116.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="795">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="47" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem113.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem113.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.8475935" vertical-offset="0" max-vertical-offset="1335">
+              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+>>>>>>> Stashed changes
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem018.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem018.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state vertical-scroll-proportion="0.0">
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="870">
+>>>>>>> Stashed changes
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem022.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem022.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state vertical-scroll-proportion="0.0">
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="645">
+>>>>>>> Stashed changes
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -39,48 +90,49 @@
       <file leaf-file-name="Problem031.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem031.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem055.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem055.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem116.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem116.py">
-          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="465">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="Problem119.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem119.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+=======
+      <file leaf-file-name="Problem001.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem001.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1020">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="Problem25.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem25.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+=======
+      <file leaf-file-name="Problem003.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem003.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1470">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -116,6 +168,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="Problem007.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem007.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,6 +179,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -142,16 +197,28 @@
         <option value="$PROJECT_DIR$/../Python/HackerRank.py" />
         <option value="$PROJECT_DIR$/Problem116.py" />
         <option value="$PROJECT_DIR$/Problem13.py" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Problem119.py" />
         <option value="$PROJECT_DIR$/Problem25.py" />
         <option value="$PROJECT_DIR$/Problem121.py" />
+=======
+        <option value="$PROJECT_DIR$/Problem20.py" />
+        <option value="$PROJECT_DIR$/Problem113.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="1919" />
     <option name="width" value="1922" />
     <option name="height" value="1080" />
+=======
+    <option name="x" value="10" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="690" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,27 +278,45 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.Problem121">
     <configuration default="false" name="Problem116" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Problem113">
+    <configuration default="false" name="HackerRank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Workspace/Python" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project-Euler" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem116.py" />
+=======
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Workspace/Python/HackerRank.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+<<<<<<< Updated upstream
     <configuration default="false" name="Problem13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Problem116" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -243,6 +328,41 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project-Euler" />
+<<<<<<< Updated upstream
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem13.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem116.py" />
+>>>>>>> Stashed changes
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+<<<<<<< Updated upstream
+    <configuration default="false" name="Problem119" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Problem13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Project-Euler" />
+<<<<<<< Updated upstream
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem119.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem25" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -250,7 +370,8 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Problem119" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Problem113" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -262,29 +383,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project-Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem119.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem25" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project-Euler" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem25.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem113.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< Updated upstream
     <configuration default="false" name="Problem121" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Problem20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -296,7 +408,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project-Euler" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem121.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem20.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -424,6 +540,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< Updated upstream
       <item index="0" class="java.lang.String" itemvalue="Python.Problem116" />
       <item index="1" class="java.lang.String" itemvalue="Python.Problem13" />
       <item index="2" class="java.lang.String" itemvalue="Python.Problem119" />
@@ -437,6 +554,21 @@
         <item index="2" class="java.lang.String" itemvalue="Python.Problem119" />
         <item index="3" class="java.lang.String" itemvalue="Python.Problem13" />
         <item index="4" class="java.lang.String" itemvalue="Python.Problem116" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Python.HackerRank" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Problem116" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Problem13" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Problem113" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Problem20" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Problem113" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Problem20" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Problem13" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Problem116" />
+        <item index="4" class="java.lang.String" itemvalue="Python.HackerRank" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -454,8 +586,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
     <editor active="true" />
+=======
+    <frame x="10" y="23" width="1260" height="690" extended-state="0" />
+    <editor active="false" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -668,14 +805,21 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem007.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/Problem028.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+>>>>>>> Stashed changes
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem018.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -749,30 +893,65 @@
     <entry file="file://$PROJECT_DIR$/Problem022.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem028.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem031.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/Problem055.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+>>>>>>> Stashed changes
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem13.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state vertical-scroll-proportion="0.0">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="5" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem001.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+>>>>>>> Stashed changes
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem003.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state vertical-scroll-proportion="0.0">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1470">
+>>>>>>> Stashed changes
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem116.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state vertical-scroll-proportion="0.0">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="795">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem018.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+>>>>>>> Stashed changes
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -794,6 +973,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem13.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08161045">
@@ -805,26 +985,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Problem022.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem099.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/Problem031.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="465">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem119.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+=======
+    <entry file="file://$PROJECT_DIR$/Problem20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6818182" vertical-offset="300" max-vertical-offset="675">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Problem25.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -837,6 +1038,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.312">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/Problem113.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8475935" vertical-offset="0" max-vertical-offset="1335">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
