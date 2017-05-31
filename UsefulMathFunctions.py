@@ -2,13 +2,27 @@
 
 import sys
 from itertools import product
+from functools import reduce
 
 
-def gcd(u, v):
-    '''Returns the GCD of two numbers'''
-    while u % v != 0:
-        u, v = v, u % v
-    return v
+def gcd(a,b):
+    """Return greatest common divisor using Euclid's Algorithm."""
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a,b):
+    """
+    Return lowest common multiple."""
+    return (a*b)/gcd(a,b)
+
+def gcdl(terms):
+   "Return gcd of a list of numbers."
+   return reduce(gcd, terms)
+
+def lcml(terms):
+    "Return lcm of a list of numbers."
+    return reduce(lcm, terms)
 
 def esieve(n):
     '''Returns a list of all primes less than N'''
