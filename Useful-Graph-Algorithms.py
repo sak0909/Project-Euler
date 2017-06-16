@@ -1,5 +1,65 @@
-#!/bin/python3
-import sys
+class UnionFind:
+    """An implementation of union find data structure.
+    It uses weighted quick union by rank with path compression.
+    """
+
+    def __init__(self, N):
+        """Initialize an empty union find object with N items.
+
+        Args:
+            N: Number of items in the union find object.
+        """
+
+        self._id = list(range(N))
+        self._count = N
+        self._rank = [0] * N
+
+    def find(self, p):
+        """Find the set identifier for the item p."""
+
+        id = self._id
+        while p != id[p]:
+            p = id[p] = id[id[p]]   # Path compression using halving.
+        return p
+
+    def count(self):
+        """Return the number of items."""
+
+        return self._count
+
+    def connected(self, p, q):
+        """Check if the items p and q are on the same set or not."""
+
+        return self.find(p) == self.find(q)
+
+    def union(self, p, q):
+        """Combine sets containing p and q into a single set."""
+
+        id = self._id
+        rank = self._rank
+
+        i = self.find(p)
+        j = self.find(q)
+        if i == j:
+            return
+
+        self._count -= 1
+        if rank[i] < rank[j]:
+            id[i] = j
+        elif rank[i] > rank[j]:
+            id[j] = i
+        else:
+            id[j] = i
+            rank[i] += 1
+
+    def __str__(self):
+        """String representation of the union find object."""
+        return " ".join([str(x) for x in self._id])
+
+    def __repr__(self):
+        """Representation of the union find object."""
+        return "UF(" + str(self) + ")"
+
 
 # Python program to find articulation points in an undirected graph
 
@@ -134,20 +194,3 @@ class Graph:
         for i in self.graph[v]:
             if self.Visited[i] == False:
                 self.DFSUtil(i, end)
-
-
-
-n, m, q = input().strip().split(' ')
-n, m, q = [int(n), int(m), int(q)]
-G = Graph(n+1)
-for a0 in range(m):
-    u, v = input().strip().split(' ')
-    u, v = [int(u), int(v)]
-    G.addEdge(u,v)
-
-G.AP()
-# print(G.getAP())
-for a0 in range(q):
-    u, v, w = input().strip().split(' ')
-    u, v, w = [int(u), int(v), int(w)]
-    G.solve(u,v,w)
