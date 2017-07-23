@@ -1,153 +1,76 @@
 #!/bin/python3
+
 import sys
-
-# Python program to find articulation points in an undirected graph
-
 from collections import defaultdict
+from collections import Counter
+from collections import deque
+from heapq import heappush, heappop
+from queue import PriorityQueue
+import functools
+import math
+from math import sqrt
 
-
-# This class represents an undirected graph
-# using adjacency list representation
 class Graph:
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
         self.graph = defaultdict(list)  # default dictionary to store graph
-        self.Time = 0
-        self.L = []
-        self.Visited = []
+        self.all_distance = defaultdict(list)
+        self.costs = []
+        self.ans = 0
+        self.distance = [-1] * (self.V + 1)
+        self.parent = [-1 for i in range(self.V + 1)]
 
     # function to add an edge to graph
     def addEdge(self, u, v):
         self.graph[u].append(v)
         self.graph[v].append(u)
 
-    '''A recursive function that find articulation points 
-    using DFS traversal
-    u --> The vertex to be visited next
-    visited[] --> keeps tract of visited vertices
-    disc[] --> Stores discovery times of visited vertices
-    parent[] --> Stores parent vertices in DFS tree
-    ap[] --> Store articulation points'''
+    def setCosts(self, c):
+        self.costs = [0]+ c
 
-    def APUtil(self, u, visited, ap, parent, low, disc):
+    def findShortestDistance(self, s, e):
+        visited = [False] * (self.V + 1)
 
-        # Count of children in current node
-        children = 0
+        Q = deque()
+        Q.append(s)
 
-        # Mark the current node as visited and print it
-        visited[u] = True
+        visited[s] = True
+        while len(Q):
+            u = Q.popleft()
+            if u in self.graph:
+                for v in self.graph[u]:
+                    if not visited[v]:
+                        self.parent[v] = u
+                        visited[v] = True
+                        if v == e:
+                            break
+                        if v in self.graph:
+                            Q.append(v)
+        values = []
+        u = e
+        while u != s:
+            values.append(self.costs[u])
+            u = self.parent[u]
+        values.append(self.costs[u])
 
-        # Initialize discovery time and low value
-        disc[u] = self.Time
-        low[u] = self.Time
-        self.Time += 1
-
-        # Recur for all the vertices adjacent to this vertex
-        for v in self.graph[u]:
-            # If v is not visited yet, then make it a child of u
-            # in DFS tree and recur for it
-            if visited[v] == False:
-                parent[v] = u
-                children += 1
-                self.APUtil(v, visited, ap, parent, low, disc)
-
-                # Check if the subtree rooted with v has a connection to
-                # one of the ancestors of u
-                low[u] = min(low[u], low[v])
-
-                # u is an articulation point in following cases
-                # (1) u is root of DFS tree and has two or more chilren.
-                if parent[u] == -1 and children > 1:
-                    ap[u] = True
-
-                # (2) If u is not root and low value of one of its child is more
-                # than discovery value of u.
-                if parent[u] != -1 and low[v] >= disc[u]:
-                    ap[u] = True
-
-                    # Update low value of u for parent function calls
-            elif v != parent[u]:
-                low[u] = min(low[u], disc[v])
-
-    # The function to do DFS traversal. It uses recursive APUtil()
-    def AP(self):
-        self.L.clear()
-        # Mark all the vertices as not visited
-        # and Initialize parent and visited,
-        # and ap(articulation point) arrays
-        visited = [False] * (self.V)
-        disc = [float("Inf")] * (self.V)
-        low = [float("Inf")] * (self.V)
-        parent = [-1] * (self.V)
-        ap = [False] * (self.V)  # To store articulation points
-
-        # Call the recursive helper function
-        # to find articulation points
-        # in DFS tree rooted with vertex 'i'
-        for i in range(self.V):
-            if visited[i] == False:
-                self.APUtil(i, visited, ap, parent, low, disc)
-
-        for index, value in enumerate(ap):
-            if value == True:
-                self.L.append(index)
-
-    def getAP(self):
-        return self.L
-
-    def solve(self, u, v, w):
-        for node in self.L:
-            if node != w:
-                if not self.checkConnectionAvoidingNode(u, w, node):
-                    if not self.checkConnectionAvoidingNode(v, w, node):
-                        print("NO")
-                        return
-                if u == node:
-                    if not self.checkConnectionAvoidingNode(v, w, node):
-                        print("NO")
-                        return
-                if v == node:
-                    if not self.checkConnectionAvoidingNode(u, w, node):
-                        print("NO")
-                        return
-        print("YES")
-
-    def checkConnectionAvoidingNode(self, start, end, block):
-        self.Visited = [False] * len(self.graph)
-        self.Visited[block] = True
-
-        self.DFSUtil(start, end)
-
-        return self.Visited[end]
+        return values
 
 
-    def DFSUtil(self, v, end):
+if __name__ == "__main__":
+    n, q = input().strip().split(' ')
+    n, q = [int(n), int(q)]
+    c = list(map(int, input().strip().split(' ')))
+    G = Graph(n)
+    G.setCosts(c)
+    for a0 in range(n-1):
+        u, v = input().strip().split(' ')
+        u, v = [int(u), int(v)]
+        G.addEdge(u, v)
+    for a0 in range(q):
+        u, v, K = input().strip().split(' ')
+        u, v, K = [int(u), int(v), int(K)]
+        values = G.findShortestDistance(u , v)
+        freq = Counter(values)
+        l = sorted([(j,i) for i,j in freq.items()], reverse=True)
 
-        # Mark the current node as visited and print it
-        self.Visited[v] = True
-
-        if self.Visited[end]:
-            return
-
-        # Recur for all the vertices adjacent to
-        # this vertex
-        for i in self.graph[v]:
-            if self.Visited[i] == False:
-                self.DFSUtil(i, end)
-
-
-
-n, m, q = input().strip().split(' ')
-n, m, q = [int(n), int(m), int(q)]
-G = Graph(n+1)
-for a0 in range(m):
-    u, v = input().strip().split(' ')
-    u, v = [int(u), int(v)]
-    G.addEdge(u,v)
-
-G.AP()
-# print(G.getAP())
-for a0 in range(q):
-    u, v, w = input().strip().split(' ')
-    u, v, w = [int(u), int(v), int(w)]
-    G.solve(u,v,w)
+        print(l[K-1][1])
